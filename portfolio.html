@@ -6,34 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>htmlcss38</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-<body>
+<body class="bodypage">
     <header>
         <!--Header-section-->
         <nav>
             <a href="">WebStudio</a>
-            <ul>
-                <li> <a href="">Студия</a> </li>
-                <li> <a href="">Портфолио</a> </li>
-                <li> <a href="">Контакты</a> </li>
+            <ul class="site-nav">
+                <li> <a href="./index.html" class="link">Студия</a> </li>
+                <li> <a href="./portfolio.html" class="link current">Портфолио</a> </li>
+                <li> <a href="" class="link">Контакты</a> </li>
             </ul>
         </nav>
-        <ul>
-            <li> <a href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-            <li> <a href="tel:+380961111111">+38 096 111 11 11</a> </li>
+        <ul class="header-contacts">
+            <li> <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a> </li>
+            <li> <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a> </li>
         </ul>
     </header>
 
     <main>
         <section>
             <!--horizontal-button-box-->
-              <ul>
-                    <li><button type="button">Все</button></li>
-                    <li><button type="button">Веб-сайты</button></li>
-                    <li><button type="button">Приложения</button></li>
-                    <li><button type="button">Дизайн</button></li>
-                    <li><button type="button">Маркетинг</button></li>
+              <ul class="button">
+                    <li><button type="button" class="portfolio-btn">Все</button></li>
+                    <li><button type="button" class="portfolio-btn">Веб-сайты</button></li>
+                    <li><button type="button" class="portfolio-btn">Приложения</button></li>
+                    <li><button type="button" class="portfolio-btn">Дизайн</button></li>
+                    <li><button type="button" class="portfolio-btn">Маркетинг</button></li>
               </ul>
         </section>
 
@@ -41,65 +47,65 @@
             <!--portfolio-menu-->
                 <ul>
                     <li>
-                        <img src="???" alt="ihor-demyanenko" width="270" height="260" />
+                        <img src="./images/tehnokrjak.jpg" alt="tehnokryak" width="370" />
                         <p>
-                        <h3>Технокряк</h3>
+                        <h3 class="portfolio-title">Технокряк</h3>
                         </p>
                         <p>Веб-сайт</p>
                     </li>
                     <li>
-                        <img src="./images/i-demyanenko.jpg" alt="ihor-demyanenko" width="270" height="260" />                       
+                        <img src="./images/poster.jpg" alt="n-orlean-vs-g-star" width="370"  />                       
                         <p>
-                        <h3>Постер New Orlean vs Golden Star</h3>
+                        <h3 class="portfolio-title">Постер New Orlean vs Golden Star</h3>
                         </p>                       
                         <p>Дизайн</p>
                     </li>
                     <li>
-                        <img src="./images/i-demyanenko.jpg" alt="ihor-demyanenko" width="270" height="260" />
+                        <img src="./images/seafood.jpg" alt="seafood" width="370" />
                         <p>
-                        <h3>Ресторан Seafood</h3>
+                        <h3 class="portfolio-title">Ресторан Seafood</h3>
                         </p>
                         <p>Приложение</p>
                     </li>
                     <li>
-                        <img src="./images/i-demyanenko.jpg" alt="ihor-demyanenko" width="270" height="260" />
+                        <img src="./images/prime.jpg" alt="prime" width="370" />
                         <p>
-                        <h3>Проект Prime</h3>
+                        <h3 class="portfolio-title">Проект Prime</h3>
                         </p>
                         <p>Маркетинг</p>
                     </li>
                     <li>
-                        <img src="./images/i-demyanenko.jpg" alt="ihor-demyanenko" width="270" height="260" />
+                        <img src="./images/boxes.jpg" alt="boxes" width="370" />
                         <p>
-                        <h3>Проект Boxes</h3>
+                        <h3 class="portfolio-title">Проект Boxes</h3>
                         </p>
                         <p>Приложение</p>
                     </li>
                     <li>
-                        <img src="./images/i-demyanenko.jpg" alt="ihor-demyanenko" width="270" height="260" />
+                        <img src="./images/inspiration.jpg" alt="inspiration-has-no-borders" width="370" />
                         <p>
-                        <h3>Inspiration has no Borders</h3>
+                        <h3 class="portfolio-title">Inspiration has no Borders</h3>
                         </p>
                         <p>Веб-сайт</p>
                     </li>
                     <li>
-                        <img src="./images/i-demyanenko.jpg" alt="ihor-demyanenko" width="270" height="260" />
+                        <img src="./images/limited-edition.jpg" alt="limited-edition" width="370"/>
                         <p>
-                        <h3>Издание Limited Edition</h3>
+                        <h3 class="portfolio-title">Издание Limited Edition</h3>
                         </p>
                         <p>Дизайн</p>
                     </li>
                     <li>
-                        <img src="./images/i-demyanenko.jpg" alt="ihor-demyanenko" width="270" height="260" />
+                        <img src="./images/lab.jpg" alt="lab" width="370"/>
                         <p>
-                        <h3>Проект LAB</h3>
+                        <h3 class="portfolio-title">Проект LAB</h3>
                         </p>
                         <p>Маркетинг</p>
                     </li>
                     <li>
-                        <img src="./images/i-demyanenko.jpg" alt="ihor-demyanenko" width="270" height="260" />
+                        <img src="./images/growing-business.jpg" alt="growing-business" width="370"/>
                         <p>
-                        <h3>Growing Business</h3>
+                        <h3 class="portfolio-title">Growing Business</h3>
                         </p>
                         <p>Приложение</p>
                     </li>
@@ -108,15 +114,17 @@
     </main>
 
     <footer>
-        <!--Contact-information-->
+    <!--Contact-information-->
+    <div class="blue-box">
         <a href="">WebStudio</a>
-        <ul>
+        <ul class="footer-contact-list">
             <li><a href="">
                     <address>г. Киев, пр-т Леси Украинки, 26</address>
                 </a></li>
             <li><a href="mailto:info@example.com">info@example.com</a></li>
             <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
+    </div>
     </footer>
 
 </body>

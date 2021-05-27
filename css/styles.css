@@ -1,0 +1,106 @@
+/* цвета */
+/* основной мелкий текст описания и ссылки #757575 */
+/* заголовки #212121 */
+/* акцент : текст на кнопках и синем фоне + футер rgba(255, 255, 255, 0.6) */
+/* бирюзовый акцент :  #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --primary-bg-color: #e5e5e5;
+  --accent-darkbox-color: #2f303a;
+}
+
+/* универсальный селектор */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bodypage {
+  font-family: Roboto;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+/* селектор для списков */
+ul {
+  list-style: none;
+}
+
+/* ==Стили для index.html== */
+
+/* Header-section */
+.site-nav a {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.header-contacts a {
+  color: var(--primary-text-color);
+}
+.header-contacts .contact-link:hover,
+.header-contacts .contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--primary-white-color);
+}
+.blue-box {
+  background-color: var(--accent-darkbox-color);
+}
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  border-radius: 4px;
+}
+
+/* Features Section */
+.feature-list .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--title-text-color);
+}
+/* Service list section */
+.services-title {
+  color: var(--title-text-color);
+}
+/* Our team section */
+.section-title {
+  color: var(--title-text-color);
+}
+.staff-name {
+  color: var(--title-text-color);
+}
+/* ==Footer== */
+.footer-contact-list a {
+  color: var(--primary-white-color);
+}
+
+/* Стили для portfolio.html */
+.button {
+  color: var(--title-text-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.button .portfolio-btn:hover,
+.button .portfolio-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  border-radius: 4px;
+}
+.portfolio-title {
+  color: var(--title-text-color);
+}
