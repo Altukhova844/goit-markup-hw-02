@@ -21,7 +21,7 @@
 }
 
 .bodypage {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
@@ -30,11 +30,20 @@
 ul {
   list-style: none;
 }
-
+.cursors {
+  cursor: pointer;
+}
 /* ==Стили для index.html== */
-
+.logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 2;
+}
 /* Header-section */
 .site-nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
   color: var(--title-text-color);
 }
 
@@ -46,6 +55,9 @@ ul {
   color: var(--accent-color);
 }
 .header-contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
   color: var(--primary-text-color);
 }
 .header-contacts .contact-link:hover,
@@ -55,12 +67,18 @@ ul {
 
 /* Hero */
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
   color: var(--primary-white-color);
 }
 .blue-box {
   background-color: var(--accent-darkbox-color);
 }
 .hero-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 9;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   border-radius: 4px;
@@ -68,28 +86,56 @@ ul {
 
 /* Features Section */
 .feature-list .title {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
+  line-height: 1, 14;
   color: var(--title-text-color);
+}
+.feature-list .text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 7;
 }
 /* Service list section */
 .services-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1, 2;
   color: var(--title-text-color);
 }
 /* Our team section */
-.section-title {
+.our-team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1, 2;
   color: var(--title-text-color);
 }
-.staff-name {
+.worker-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 2;
   color: var(--title-text-color);
+}
+.worker-function {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 2;
 }
 /* ==Footer== */
 .footer-contact-list a {
   color: var(--primary-white-color);
 }
-
-/* Стили для portfolio.html */
+.footer-contact-list .footer-link:hover {
+  color: var(--accent-color);
+}
+.footer-contact-list .footer-link:focus {
+  color: var(--accent-color);
+}
+/* ===Стили для portfolio.html=== */
+/* portfolio button filter */
+.portfolio-btn-box {
+  background-color: var(--primary-bg-color);
+}
 .button {
   color: var(--title-text-color);
   background: #f5f4fa;
@@ -101,6 +147,18 @@ ul {
   color: var(--primary-white-color);
   border-radius: 4px;
 }
+.portfolio-btn {
+  font-family: inherit;
+}
+/* portfolio menu */
 .portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
   color: var(--title-text-color);
+}
+.portfolio-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 9;
 }
