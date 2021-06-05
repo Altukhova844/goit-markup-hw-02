@@ -34,17 +34,31 @@ ul {
   cursor: pointer;
 }
 /* ==Стили для index.html== */
+.nav a {
+  color: var(--title-text-color);
+}
 .logo {
+  font-family: Raleway;
+  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1, 2;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
+.logo-accent {
+  color: var(--accent-color);
+}
+
 /* Header-section */
 .site-nav a {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -55,10 +69,13 @@ ul {
   color: var(--accent-color);
 }
 .header-contacts a {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .header-contacts .contact-link:hover,
 .header-contacts .contact-link:focus {
@@ -67,18 +84,23 @@ ul {
 
 /* Hero */
 .hero-title {
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--primary-white-color);
 }
 .blue-box {
   background-color: var(--accent-darkbox-color);
 }
 .hero-btn {
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 1, 9;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   border-radius: 4px;
@@ -86,44 +108,76 @@ ul {
 
 /* Features Section */
 .feature-list .title {
+  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--title-text-color);
 }
 .feature-list .text {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1, 7;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 /* Service list section */
 .services-title {
+  font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1, 2;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 /* Our team section */
 .our-team-title {
+  font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1, 2;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .worker-name {
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 2;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .worker-function {
+  font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1, 2;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
+
 /* ==Footer== */
-.footer-contact-list a {
+.footer-box {
+  background-color: var(--accent-darkbox-color);
+}
+.footer-box a {
   color: var(--primary-white-color);
+}
+.footer-contact-list a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+.footer-contact-list .digital-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link address {
+  font-style: normal;
 }
 .footer-contact-list .footer-link:hover {
   color: var(--accent-color);
@@ -131,7 +185,9 @@ ul {
 .footer-contact-list .footer-link:focus {
   color: var(--accent-color);
 }
+
 /* ===Стили для portfolio.html=== */
+
 /* portfolio button filter */
 .portfolio-btn-box {
   background-color: var(--primary-bg-color);
@@ -140,6 +196,13 @@ ul {
   color: var(--title-text-color);
   background: #f5f4fa;
   border-radius: 4px;
+}
+.portfolio-btn-box .portfolio-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 .button .portfolio-btn:hover,
 .button .portfolio-btn:focus {
@@ -152,13 +215,17 @@ ul {
 }
 /* portfolio menu */
 .portfolio-title {
+  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 .portfolio-description {
+  font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1, 9;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
